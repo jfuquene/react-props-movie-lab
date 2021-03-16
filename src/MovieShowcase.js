@@ -7,7 +7,7 @@ export default class MovieShowcase extends Component {
  
   generateMovieCards = () => {
     const movieInfo = movieData
-    return movieInfo.map((movie, index) =>
+    return movieInfo.map((movie) =>
     <MovieCard 
       poster={movie.poster}
       title={movie.title}
